@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.judul {
+    text-align: center;
+    background-color: rgb(85, 141, 245);
+    padding: 2rem 0;
+}
+
+.konten {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.kotak {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.pilih-gambar {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    margin-top: 50px;
+    background-color: bisque;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pilih-jawaban {
+    display: flex;
+    gap: 2rem;
+}
+
+.jawaban {
+    font-size: 100px;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.pilih-jawaban .jawaban {
+    cursor: pointer;
+}
+
+#hasil-pop-up {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(93, 125, 243);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#hasil-pop-up h1 {
+    color: black;
+}
+
+#btn-ok {
+    margin-top: 20px;
+    padding: 0.4rem;
+    border-radius: 10px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#hasil-teks {
+    font-weight: 500;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <!-- judul -->
+    <div class="judul">
+      <h1>Game Gunting Batu Kertas</h1>
+    </div>
+    <!-- konten -->
+    <div class="konten">
+      <!-- kotak -->
+      <div class="kotak" id="kotak-user">
+        <button class="jawaban" id="pilihan-user"></button>
+      </div>
+      <!-- VS -->
+      <div>
+        <h2>VS</h2>
+      </div>
+      <!-- Kotak -->
+      <div class="kotak" id="kotak-com">
+        <button class="jawaban" id="pilihan-com"></button>
+      </div>
+    </div>
+
+    <!-- Pilih jawaban gambarx -->
+    <div class="pilih-gambar">
+      <div class="judul-jawaban">
+        <h1>Pilih Gunting Batu Kertas :</h1>
+      </div>
+      <div class="pilih-jawaban">
+        <button class="jawaban" id="gunting">✌️</button>
+        <button class="jawaban" id="batu">✊</button>
+        <button class="jawaban" id="kertas">🖐️</button>
+      </div>
+    </div>
+
+    <div id="hasil-pop-up">
+      <h1>Hasil Permainan</h1>
+      <p id="hasil-teks"></p>
+      <button id="btn-ok">OK</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
