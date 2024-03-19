@@ -65,11 +65,10 @@ function menentukanPemenang(userChoice, comChoice) {
 // }
 
 function playGame() {
-  const computerChoice = generateComputerChoice();
-  const result = menentukanPemenang(pilihan_user.textContent, computerChoice);
-
+  const pilihanKomputer = generateComputerChoice();
+  const result = menentukanPemenang(pilihan_user.textContent, pilihanKomputer);
   // Tampilkan pilihan komputer dan hasil permainan
-  document.getElementById("pilihan-com").textContent = computerChoice;
+  document.getElementById("pilihan-com").textContent = pilihanKomputer;
 
   Swal.fire({
     title: "Hasil Permainan",
